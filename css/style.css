@@ -351,8 +351,11 @@ body a {
 }
 
 @media (max-width: 640px) and (orientation: landscape) {
+    .trends-list {
+        flex-wrap: wrap;
+    }
     .trends-item {
-        width: 50%;
+        width: calc(50% - 2px);
     }
 }
 
@@ -1107,6 +1110,7 @@ body a {
 @media (max-width: 640px) {
     .popup {
         padding: 0 15px;
+        overflow: scroll;
     }
     .popup-container {
         max-width: 100%;
