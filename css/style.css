@@ -337,6 +337,9 @@ body a {
     .trends-item {
         width: 25%;
     }
+    .trends-item-link {
+        font-size:  17px;
+    }
 }
 
 @media (max-width: 640px) and (orientation: portrait) {
@@ -351,6 +354,10 @@ body a {
 }
 
 @media (max-width: 640px) and (orientation: landscape) {
+    .trends-title,
+    .trends-item-link {
+        font-size: 16px;
+    }
     .trends-list {
         flex-wrap: wrap;
     }
