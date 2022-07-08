@@ -256,6 +256,7 @@ body a {
     min-height: 320px;
     padding: 15px 22px;
     z-index: 0;
+    font-size: 17px;
 }
 
 .trends-item::after {
@@ -297,7 +298,7 @@ body a {
 }
 
 .trends-item-content {
-    padding: 38px 33px;
+    padding: 2.2em 1.9em;
     border: 3px solid #b59f5b;
 }
 
@@ -329,16 +330,17 @@ body a {
         min-height: 245px;
     }
     .trends-item-link {
-        font-size:  17px;
+        font-size: 17px;
     }
 }
 
 @media (max-width: 1200px) and (orientation: landscape) {
     .trends-item {
         width: 25%;
+        font-size: 16px;
     }
     .trends-item-link {
-        font-size:  17px;
+        font-size: 17px;
     }
 }
 
@@ -363,6 +365,7 @@ body a {
     }
     .trends-item {
         width: calc(50% - 2px);
+        font-size: 15px;
     }
 }
 
